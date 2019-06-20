@@ -14,8 +14,7 @@ def main():
         url='https://github.com/rere332/wda.git',
         author_email='landy.wang@outlook.com',
         license='MIT',
-        packages=find_packages(),  # 需要处理哪里packages，当然也可以手动填，例如['pip_setup', 'pip_setup.ext']
-        include_package_data=False,
+        packages=['wda'],
         zip_safe=False,
     )
 
